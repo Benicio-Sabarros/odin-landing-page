@@ -2,14 +2,68 @@
     font-family: "Roboto", sans-serif;
 }
 
+.header, .hero, .info, .quote, footer{
+    display: flex;
+    padding: 16px;
+}
+
+.header, .hero, footer{
+    background-color: #1f2937;
+}
+
+.hero p, .header a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header{
+    justify-content: space-between;
+}
+
+.header p{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.image{
+    width: 600px;
+    height: 250px;
+}
+
+.image img{
+   width: 600px;
+   height: 250px;
+   object-fit: cover;
+}
+
 .quote{
     background-color: #e5e7eb;
 }
+/*quote text*/
+.inspire{
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+    font-style: italic;
+}
 
+footer{
+    color: #f9faf8;
+}
 
-
+/*this website is awesome*/
 h1{
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+}
+/*some random information*/
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+button{
+    background-color: #3882f6;
 }
