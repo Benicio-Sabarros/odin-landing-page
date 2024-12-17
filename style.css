@@ -1,19 +1,34 @@
 *{
     font-family: "Roboto", sans-serif;
 }
+
+html{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    min-height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
 main{
     background-color: #f9faf8;
-    
 }
 
 .header, .hero, .info, .quote, .action{
     display: flex;
     margin: auto;
-    width: 50%;
 }
 
-.header, .hero{
-    flex: auto;
+.header, .hero, .action{
+    width: 70%;
+}
+
+.info, .quote{
+    width: 60%;
 }
 
 .dark, footer{
@@ -57,10 +72,12 @@ main{
 }
 
 .image img{
-   width: 600px;
-   height: 250px;
+   width: 100%;
+   height: 100%;
    object-fit: cover;
 }
+
+
 
 .quote{
     background-color: #e5e7eb;
@@ -71,6 +88,10 @@ main{
     font-weight: 100;
     color: #1f2937;
     font-style: italic;
+}
+
+.action{
+    padding: 20px;
 }
 
 footer{
@@ -99,7 +120,8 @@ button{
 }
 
 a{
-    text-decoration: none;
-} a:hover{
-    color:rgb(207, 207, 206)8;
+    color:#f9faf8;
+}
+a:hover{
+    color: #acacac;
 }
