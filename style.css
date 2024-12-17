@@ -67,8 +67,9 @@ main{
 }
 
 .image{
-    width: 100%;
+    width: 400px;
     height: 250px;
+    flex-shrink: 0;
 }
 
 .image img, .blocked{
@@ -80,6 +81,7 @@ main{
 .info{
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 .collection{
     display: flex;
@@ -99,7 +101,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #3882f6;
+    border: 3px solid #3882f6;
     border-radius: 12px;
     overflow: hidden;
 }
@@ -114,6 +116,9 @@ main{
 
 .quote{
     background-color: #e5e7eb;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
 }
 /*quote text*/
 .inspire{
@@ -121,6 +126,10 @@ main{
     font-weight: 100;
     color: #1f2937;
     font-style: italic;
+}
+
+.source{
+    margin-top: -30px;
 }
 
 .action{
