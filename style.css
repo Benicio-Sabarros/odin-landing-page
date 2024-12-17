@@ -43,6 +43,7 @@ main{
 .header{
     justify-content: space-between;
     align-items: center;
+    max-width: 1000px;
 }
 
 .header p{
@@ -59,17 +60,25 @@ main{
 }
 
 .hero{
-    gap: 16px;
+    max-width: 1000px;
+    padding-bottom: 50px;
+    gap: 30px;
+    justify-content: space-between;
 }
+
 .text{
     display: flex;
     flex-direction: column;
+    max-width: 400px;
 }
 
+.bavaria{
+    margin-top: -20px;
+    margin-bottom: auto;
+}
 .image{
-    width: 400px;
-    height: 250px;
-    flex-shrink: 0;
+    max-width: 600px;
+    flex: auto;
 }
 
 .image img, .blocked{
@@ -81,18 +90,20 @@ main{
 .info{
     flex-direction: column;
     align-items: center;
-    flex: 1;
 }
 .collection{
     display: flex;
+    text-align: center;
     justify-content: space-between;
-    gap: 100px;
+    width: 90%;
+    max-width: 800px;
+    gap: 20px;
 }
 
 .container{
-    flex: 1;
-    width: 100px;
-
+    max-width: 100px;
+    margin: 0;
+    flex: none;
 }
 
 .block{
@@ -104,10 +115,6 @@ main{
     border: 3px solid #3882f6;
     border-radius: 12px;
     overflow: hidden;
-}
-
-.block p{
-    text-align: center;
 }
 
 .grey{
@@ -133,7 +140,22 @@ main{
 }
 
 .action{
-    padding: 20px;
+    max-width: 700px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    color:#f9faf8;
+    background-color: #3882f6;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+.top{
+    font-weight: bold;
+}
+
+.bottom{
+    margin-top: -12px;
 }
 
 footer{
@@ -159,6 +181,11 @@ h2{
 
 button{
     background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
+    padding: 5px 10px;
+    width: 120px;
+    color:#f9faf8;
 }
 
 a{
