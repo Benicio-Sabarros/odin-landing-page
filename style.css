@@ -74,12 +74,14 @@ main{
 
 .bavaria{
     margin-top: -20px;
-    margin-bottom: auto;
+    margin-bottom: 20px;
 }
 .image{
     max-width: 600px;
     flex: auto;
 }
+
+
 
 .image img, .blocked{
    width: 100%;
@@ -90,6 +92,7 @@ main{
 .info{
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
 }
 .collection{
     display: flex;
@@ -115,6 +118,10 @@ main{
     border: 3px solid #3882f6;
     border-radius: 12px;
     overflow: hidden;
+}
+
+.location{
+    color:#1f2937;
 }
 
 .grey{
@@ -190,6 +197,7 @@ button{
 
 a{
     color:#f9faf8;
+    text-decoration: none;
 }
 a:hover{
     color: #acacac;
