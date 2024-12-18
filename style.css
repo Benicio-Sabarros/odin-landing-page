@@ -18,12 +18,12 @@ main{
     background-color: #f9faf8;
 }
 
-.header, .hero, .info, .quote, .action{
+.header, .hero, .info, .quote, .action, .food{
     display: flex;
     margin: auto;
 }
 
-.header, .hero, .action{
+.header, .hero, .action, .food{
     width: 70%;
 }
 
@@ -93,6 +93,7 @@ main{
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
+    border-bottom: 2px solid #d1d1d1;
 }
 .collection{
     display: flex;
@@ -122,6 +123,49 @@ main{
 
 .location{
     color:#1f2937;
+}
+
+.food{
+    max-width: 1000px;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.food a{
+    color:#1f2937;
+}
+
+.presentation{
+    margin-top: -30px;
+}
+
+.dish{
+    max-width: 740px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    background-color:#d1d1d1;
+    color:#1f2937;
+    border-radius: 14px;
+}
+
+.dish img{
+    max-width: 300px;
+    border-radius: 12px;
+}
+
+.strudel, .burger{
+    align-self: flex-start;
+}
+
+.dish.pretzel{
+    align-self: flex-end;
+    flex-direction: row-reverse;
 }
 
 .grey{
