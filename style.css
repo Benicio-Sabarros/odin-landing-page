@@ -32,7 +32,7 @@ main{
 }
 
 .dark, footer{
-    background-color: #1f2937;
+    background-color: #131613;
 }
 
 .hero p, .header a{
@@ -121,7 +121,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid #3882f6;
+    border: 3px solid #fbdb04;
     border-radius: 12px;
     overflow: hidden;
 }
@@ -154,9 +154,13 @@ main{
     align-items: center;
     gap: 12px;
     padding: 12px;
-    background-color:#d1d1d1;
+    background-color:#acacac;
     color:#1f2937;
     border-radius: 14px;
+}
+
+.dish a:hover{
+    color:#0b0c0b;
 }
 
 .dish img{
@@ -174,11 +178,11 @@ main{
 }
 
 .grey{
-    background-color: #e5e7eb;
+    background-color: #b6bec1;
 }
 
 .quote{
-    background-color: #e5e7eb;
+    background-color: #b6bec1;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
@@ -201,8 +205,8 @@ main{
     align-items: center;
     padding: 20px 100px;
     color:#f9faf8;
-    background-color: #3882f6;
-    margin: 20px auto;
+    background-color: #049cd3;
+    margin: 80px auto;
     border-radius: 12px;
 }
 
@@ -236,7 +240,7 @@ h2{
 }
 
 button{
-    background-color: #3882f6;
+    background-color: #049cd3;
     border: 2px solid #f9faf8;
     border-radius: 6px;
     padding: 5px 10px;
