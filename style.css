@@ -94,6 +94,10 @@ main{
    object-fit: cover;
 }
 
+button a:hover{
+    color:#0b0c0b;
+}
+
 .background{
     background-image: url(images/locations/Watzmann_von_Norden.jpg);
     background-size: cover;
@@ -229,6 +233,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 /*this website is awesome*/
@@ -253,6 +258,10 @@ button{
     color:#f9faf8;
 }
 
+button:hover{
+    background-color: #00b2f3;
+}
+
 a{
     color:#f9faf8;
     text-decoration: none;
@@ -260,3 +269,4 @@ a{
 a:hover{
     color: #acacac;
 }
+
